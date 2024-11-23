@@ -34,3 +34,4 @@ Platform for purple-box applications
 3. `cd sources/cms && composer install`
 4. `php bin/console assets:install`
 5. Check link: http://localhost/cms
+
