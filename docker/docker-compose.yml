@@ -76,6 +76,7 @@ services:
       JWT_TOKEN_TTL: ${JWT_TOKEN_TTL}
       JWT_AUTH_PASS: ${JWT_AUTH_PASS}
       REFRESH_TOKEN_TTL: ${REFRESH_TOKEN_TTL}
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
     volumes:
 #      - /var/www/vendor/
       - ./../sources/:/var/www/sources/
